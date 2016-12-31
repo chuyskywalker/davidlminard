@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -28,6 +28,16 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    // force the youtube player to stop on modal close
+    $(".modal").on('hidden.bs.modal', function() {
+        $(this).find('.embed').html("")
+    });
+    $(".modal").on('show.bs.modal', function() {
+        $(this).find('.embed').html(
+            decodeURI($(this).find('.embed').data('embed'))
+        );
+    });
 
 })(jQuery); // End of use strict

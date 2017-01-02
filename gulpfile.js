@@ -8,6 +8,7 @@ var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var nunjucksRender = require('gulp-nunjucks-render');
 var data = require('gulp-data');
+var htmlmin = require('gulp-htmlmin');
 
 // Compile LESS files from /less into /css
 gulp.task('less', function() {
@@ -75,6 +76,7 @@ gulp.task('njk', function() {
   return gulp.src('index.njk')
     .pipe(data(function(){return require('./data.json')}))
     .pipe(nunjucksRender({path: ['.']}))
+    .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'))
 });
 

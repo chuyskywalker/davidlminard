@@ -1,0 +1,130 @@
+{ "projects": [
+  {
+    "id": "hazmat",
+    "title": "Hazmat",
+    "short": "Sound Design & Mixing",
+    "desc": "This is a short film directed by Lucas Scott. I found this project through Craigslist while I was looking for pieces to build my demo reel during my last year at Ex'pression College for Digital Arts. This film was also a school-associated project for Mr. Scott as he was directing it while attending the Academy of Art in San Francisco. I acted as the re-recording mixer, sound designer, and I recorded the \"warning\"; voice over as well. I had a lot of fun creating sounds for the \"monster\" and I'm very pleased with how the whole piece came together.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DDlZ0GDjITQ\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/DDlZ0GDjITQ/hqdefault.jpg"
+  },
+  {
+    "id": "stat",
+    "title": "Stat",
+    "short": "Mix, Design, & Foley",
+    "desc": "This generic auto shop video advertisement was produced by Shortkid Productions. I was referred to them to perform post production audio for this piece by its director, Lucas Scott, whom I had worked with before on his short film, &quot;Hazmat.&quot; I acted as the re-recording mixer, sound designer, and Foley artist. Additionally, I composed the music for it using Logic Pro 8.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iMjnAjkAyEA\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/iMjnAjkAyEA/hqdefault.jpg"
+  },
+  {
+    "id": "psa",
+    "title": "Litter PSA",
+    "short": "Recording & Mixing",
+    "desc": "Don't be a litter-bug! This public service announcement was created by my friend, motion graphics designer Gabe Schwartz (<a href='http://www.gabeschwartz.com/'>http://www.gabeschwartz.com/</a>). It was a volunteer piece &quot;contracted out&quot; to motion graphics students at Ex'pression College for Digital Arts by the TakePride.org campaign. I recorded the voice over performed by Lia Rubinoff and mixed it with the stock music provided to me. I was happy to be a part of this feel-good project.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aypclCz_5rI\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/aypclCz_5rI/hqdefault.jpg"
+  },
+  {
+    "id": "berk",
+    "title": "Berkeley Shelters",
+    "short": "Production Sound & Mixing",
+    "desc": "Student volunteers came together to create this showcase for the Suitcase Clinic to highlight the amazing services they provide to the Berkeley community. With a recent loss of city funding, this video premiered at a fundraiser for shelters to encourage donations. I contributed by providing some production sound on location, as well as helping out on the post side with some noise reduction and mixing. I would like to give thanks to all of the UC Berkeley med students that volunteer at these clinics, they are all amazing people!",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ncmjzEfOjUI\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/ncmjzEfOjUI/hqdefault.jpg"
+  },
+  {
+    "id": "mgd",
+    "title": "MGD",
+    "short": "SFX, Music, Mixing",
+    "desc": "This motion logo was created by my friend, motion graphics designer Gabe Schwartz (<a href='http://www.gabeschwartz.com/'>http://www.gabeschwartz.com/</a>). I added all of the SFX, composed the music, and mixed it all down to use as a part of my demo reel. Though short, this guy will grab your attention with its upbeat energy and eye-catching visual design.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VWogd2TsicI\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/VWogd2TsicI/hqdefault.jpg"
+  },
+  {
+    "id": "bioshock",
+    "title": "Bioshock Promo",
+    "short": "Complete Audio Redo",
+    "desc": "In this school project, we had to completely recreate the sound for a video game trailer. I chose Bioshock because I was very familiar with the game and loved the original sound design. I kept the theme of the original, but took a more &quot;real world&quot; approach with it. I composed, created or added in every sound in this trailer.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mParSGUCRyA\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/mParSGUCRyA/hqdefault.jpg"
+  },
+  {
+    "id": "safe",
+    "title": "Safe Now",
+    "short": "Boom & Mixing",
+    "desc": "&quot;Safe Now&quot; is a short film that was produced during an event held by the organization &quot;Making Movies Throughout the Bay&quot; (<a href='http://www.facebook.com/MMTB1'>http://www.facebook.com/MMTB1</a>). The event was a one-day film-fest; group members chosen at random and scripts written on the spot. We were given a little under a month for post production. I acted as boom operator and sound mixer during production as well as sound designer and re-recording mixer during post. For such a short project, this came out incredible!",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PCY5C_5ANPw\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/PCY5C_5ANPw/hqdefault.jpg"
+  },
+  {
+    "id": "proxy",
+    "title": "The Proxy Father",
+    "short": "Boom & Mixing",
+    "desc": "Bringing a simple joke to life, &quot;The Proxy Father&quot; is an entertaining short comedy. I acted as the boom operator and sound mixer during production as well as the re-recording mixer during post. I had a lot of fun on location with everybody involved in this film.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pj6rzy1L3yU\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/pj6rzy1L3yU/hqdefault.jpg"
+  },
+  {
+    "id": "choose",
+    "title": "ChooseYou",
+    "short": "Boom, VO & Mixing",
+    "desc": "This advertisement for ChooseYou.com was created to be entered into a contest hosted by Poptent.net, a crowdsourcing media production hub for companies that offer cash prizes to the best user-generated content. Shot in March 2011, my roles in this production were boom operator/sound mixer, VO recordist, and re-recording mixer. Although my team did not win the contest I am still very proud of how this came out!",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LrIM5Fh_4bQ\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/LrIM5Fh_4bQ/hqdefault.jpg"
+  },
+  {
+    "id": "tbtm",
+    "title": "You Belong To Me",
+    "short": "Boom & Mixing",
+    "desc": "Living with a demon-possessed family member can be difficult, to say the least. Part of the 2011 San Jose 3-Day Film Challenge. I acted as the Sound Mixer and Boom Operator for this short film.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W3bpt_dkcB8\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/W3bpt_dkcB8/hqdefault.jpg"
+  },
+  {
+    "id": "outofnowhere",
+    "title": "Out of Nowhere",
+    "short": "Boom & Mixing",
+    "desc": "An eerie tone is set up for the uncomfortable experience of a man who's looking for love in the wrong place. I acted as the Sound Mixer and Boom Operator for this short film.",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bZ9JVkoY2Rc\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/bZ9JVkoY2Rc/hqdefault.jpg"
+  },
+  {
+    "id": "falua",
+    "title": "Fa Lua",
+    "short": "Sound Mixer",
+    "desc": "-",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ku3t0ugIods\" frameborder=\"0\" allowfullscreen></iframe>",
+    "img": "https://img.youtube.com/vi/ku3t0ugIods/hqdefault.jpg"
+  },
+  {
+    "id": "bitt",
+    "title": "Business Insider: TinyTap",
+    "short": "Sound Mixer, Boom",
+    "desc": "-",
+    "embed": "<iframe src=\"https://player.vimeo.com/video/107294763\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "img": "https://i.vimeocdn.com/video/490665005_640.jpg"
+  },
+  {
+    "id": "frb",
+    "title": "First Republic Bank",
+    "short": "Sound Mixer",
+    "desc": "First Republic Bank: Inspiration to Action <i>(Was not sound mixer for the warehouse interview)</i>",
+    "embed": "<iframe src=\"https://player.vimeo.com/video/136878894\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "img": "https://i.vimeocdn.com/video/531559950_640.jpg"
+  },
+  {
+    "id": "litmost",
+    "title": "Litmos",
+    "short": "Sound Mixer",
+    "desc": "-",
+    "embed": "<iframe src=\"https://player.vimeo.com/video/136339478\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "img": "https://i.vimeocdn.com/video/530807687_640.jpg"
+  },
+  {
+    "id": "bia",
+    "title": "BIA Kelsey 2014",
+    "short": "Sound Mixer, Boom",
+    "desc": "-",
+    "embed": "<iframe src=\"https://player.vimeo.com/video/136878028\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "img": "https://i.vimeocdn.com/video/531558397_640.jpg"
+  }
+]}

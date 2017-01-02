@@ -5,8 +5,9 @@ var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
-var pkg = require('./package.json');
 var concat = require('gulp-concat');
+var nunjucksRender = require('gulp-nunjucks-render');
+var data = require('gulp-data');
 
 // Compile LESS files from /less into /css
 gulp.task('less', function() {
@@ -27,7 +28,7 @@ gulp.task('css', ['less'], function() {
     return gulp.src(cssFiles)
         .pipe(concat('dist.css'))
         .pipe(cleanCSS({ compatibility: 'ie8' }))
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('dist'))
         .pipe(browserSync.reload({
             stream: true
         }))
@@ -43,34 +44,49 @@ gulp.task('js', function() {
     return gulp.src(jsFiles)
         .pipe(concat('dist.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('js'))
+        .pipe(gulp.dest('dist'))
         .pipe(browserSync.reload({
             stream: true
         }));
 });
 
+gulp.task('copy', function() {
+
+    gulp.src(['css/fontello*', '!css/fontello.css'])
+        .pipe(gulp.dest('dist/'));
+
+    gulp.src('img/*')
+        .pipe(gulp.dest('dist/img/'));
+});
+
 // Run everything
-gulp.task('default', ['less', 'css', 'js']);
+gulp.task('default', ['less', 'css', 'js', 'copy', 'njk']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
-            baseDir: ''
-        },
+            baseDir: 'dist/'
+        }
     })
-})
+});
+
+gulp.task('njk', function() {
+  return gulp.src('index.njk')
+    .pipe(data(function(){return require('./data.json')}))
+    .pipe(nunjucksRender({path: ['.']}))
+    .pipe(gulp.dest('dist'))
+});
 
 // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'watch'], function() {
-    // Reloads the browser whenever HTML or JS files change
-    gulp.watch('index.html', browserSync.reload);
-    gulp.watch('js/dist.js', browserSync.reload);
-    gulp.watch('js/dist.css', browserSync.reload);
+    gulp.watch('dist/*', browserSync.reload);
 });
 
-gulp.task('watch', ['less', 'css', 'js'], function() {
+gulp.task('watch', ['default'], function() {
     gulp.watch('less/*.less', ['less']);
     gulp.watch(cssFiles, ['css']);
     gulp.watch(jsFiles, ['js']);
+    gulp.watch('index.njk', ['njk']);
+    gulp.watch(['img/*', 'css/fontello*', '!css/fontello.css'], ['copy']);
 });

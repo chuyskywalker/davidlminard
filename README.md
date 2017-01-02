@@ -1,8 +1,11 @@
 # David L Minard
 
-To Develop, install all the node modules
+To Develop, install all the node modules.
+
+_Hint: I use `docker` so I prepend all of these commands with `docker run --rm -ti -v $(pwd):/app -w /app node`_
 
 ```
+# Local npm?
 npm install
 ```
 
@@ -28,5 +31,6 @@ node node_modules/gulp-cli/bin/gulp.js watch
 To Deploy:
 
 ```
-todo :D
+node node_modules/gulp-cli/bin/gulp.js
+./build-static.sh
 ```

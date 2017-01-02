@@ -29,10 +29,10 @@ docker build -t $CNAME .
 echo "-- Push to registry"
 docker push $CNAME
 
-# echo "-- Refresh Nomad Deployment"
-# cp docker-files/nomad.hcl /tmp/nomad.hcl
-# sed -i -e "s#registry.service.consul/dlm#$CNAME#" /tmp/nomad.hcl
-# docker cp /tmp/nomad.hcl nomad:/tmp/nomad.hcl
-# docker exec -ti nomad nomad run -address=http://192.168.1.51:4646 /tmp/nomad.hcl
+echo "-- Refresh Nomad Deployment"
+cp docker-files/nomad.hcl /tmp/nomad.hcl
+sed -i -e "s#registry.service.consul/dlm#$CNAME#" /tmp/nomad.hcl
+docker cp /tmp/nomad.hcl nomad:/tmp/nomad.hcl
+docker exec -ti nomad nomad run -address=http://192.168.1.51:4646 /tmp/nomad.hcl
 
 echo "-- Done!"

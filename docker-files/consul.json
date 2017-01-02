@@ -1,0 +1,13 @@
+{
+  "services": [{
+    "name": "davidlminard"
+  }],
+  "checks": [{
+    "id": "davidlminard-port80",
+    "name": "HTTP on port 80",
+    "http": "http://localhost:80/",
+    "interval": "10s",
+    "timeout": "1s",
+    "service_id": "davidlminard"
+  }]
+}

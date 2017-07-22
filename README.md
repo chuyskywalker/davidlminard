@@ -1,36 +1,28 @@
 # David L Minard
 
-To Develop, install all the node modules.
+Website for David L Minard, Audio Engineer and Photographer.
 
-_Hint: I use `docker` so I prepend all of these commands with `docker run --rm -ti -v $(pwd):/app -w /app node`_
+## Development
 
-```
-# Local npm?
-npm install
-```
+Heavily dependent on Docker for consistent environemnt and tools.
 
-Then you can either user browsersync or caddy.
-
-Browsersync:
-```
-node node_modules/gulp-cli/bin/gulp.js dev
-```
-
-Caddy:
-(Terminal 1)
-````
-node node_modules/gulp-cli/bin/gulp.js watch
-```
-
-(Terminal 2)
-```
-# Download caddy - https://caddyserver.com/
-./caddy.exe
-```
-
-To Deploy:
+Install node dependencies (usually a one time operation)
 
 ```
-node node_modules/gulp-cli/bin/gulp.js
+docker run --rm -ti -v $(pwd):/app -w /app node npm install
+```
+
+Launch a dev instance (starts "browser sync" which lets you live edit/reload files)
+
+```
+docker run --rm -ti -v $(pwd):/app -w /app node node_modules/gulp-cli/bin/gulp.js dev
+```
+
+## Deployment
+
+This deployment is extremely biased towards my home hosting environment.
+
+```
+docker run --rm -ti -v $(pwd):/app -w /app node node_modules/gulp-cli/bin/gulp.js
 ./build-static.sh
 ```

@@ -1,21 +1,5 @@
 { "projects": [
   {
-    "id": "hazmat",
-    "title": "Hazmat",
-    "short": "Sound Design & Mixing",
-    "desc": "This is a short film directed by Lucas Scott. I found this project through Craigslist while I was looking for pieces to build my demo reel during my last year at Ex'pression College for Digital Arts. This film was also a school-associated project for Mr. Scott as he was directing it while attending the Academy of Art in San Francisco. I acted as the re-recording mixer, sound designer, and I recorded the \"warning\"; voice over as well. I had a lot of fun creating sounds for the \"monster\" and I'm very pleased with how the whole piece came together.",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DDlZ0GDjITQ\" frameborder=\"0\" allowfullscreen></iframe>",
-    "img": "https://img.youtube.com/vi/DDlZ0GDjITQ/hqdefault.jpg"
-  },
-  {
-    "id": "stat",
-    "title": "Stat",
-    "short": "Mix, Design, & Foley",
-    "desc": "This generic auto shop video advertisement was produced by Shortkid Productions. I was referred to them to perform post production audio for this piece by its director, Lucas Scott, whom I had worked with before on his short film, &quot;Hazmat.&quot; I acted as the re-recording mixer, sound designer, and Foley artist. Additionally, I composed the music for it using Logic Pro 8.",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iMjnAjkAyEA\" frameborder=\"0\" allowfullscreen></iframe>",
-    "img": "https://img.youtube.com/vi/iMjnAjkAyEA/hqdefault.jpg"
-  },
-  {
     "id": "psa",
     "title": "Litter PSA",
     "short": "Recording & Mixing",
@@ -30,22 +14,6 @@
     "desc": "Student volunteers came together to create this showcase for the Suitcase Clinic to highlight the amazing services they provide to the Berkeley community. With a recent loss of city funding, this video premiered at a fundraiser for shelters to encourage donations. I contributed by providing some production sound on location, as well as helping out on the post side with some noise reduction and mixing. I would like to give thanks to all of the UC Berkeley med students that volunteer at these clinics, they are all amazing people!",
     "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ncmjzEfOjUI\" frameborder=\"0\" allowfullscreen></iframe>",
     "img": "https://img.youtube.com/vi/ncmjzEfOjUI/hqdefault.jpg"
-  },
-  {
-    "id": "mgd",
-    "title": "MGD",
-    "short": "SFX, Music, Mixing",
-    "desc": "This motion logo was created by my friend, motion graphics designer Gabe Schwartz (<a href='http://www.gabeschwartz.com/'>http://www.gabeschwartz.com/</a>). I added all of the SFX, composed the music, and mixed it all down to use as a part of my demo reel. Though short, this guy will grab your attention with its upbeat energy and eye-catching visual design.",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VWogd2TsicI\" frameborder=\"0\" allowfullscreen></iframe>",
-    "img": "https://img.youtube.com/vi/VWogd2TsicI/hqdefault.jpg"
-  },
-  {
-    "id": "bioshock",
-    "title": "Bioshock Promo",
-    "short": "Complete Audio Redo",
-    "desc": "In this school project, we had to completely recreate the sound for a video game trailer. I chose Bioshock because I was very familiar with the game and loved the original sound design. I kept the theme of the original, but took a more &quot;real world&quot; approach with it. I composed, created or added in every sound in this trailer.",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mParSGUCRyA\" frameborder=\"0\" allowfullscreen></iframe>",
-    "img": "https://img.youtube.com/vi/mParSGUCRyA/hqdefault.jpg"
   },
   {
     "id": "safe",

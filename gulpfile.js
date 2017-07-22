@@ -61,34 +61,50 @@ gulp.task('copy', function() {
 });
 
 // Run everything
-gulp.task('default', ['less', 'css', 'js', 'copy', 'njk']);
+gulp.task('default', ['less', 'css', 'js', 'copy', 'audio-njk', 'index-njk']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
             baseDir: 'dist/'
-        }
+        },
+        open: false
     })
 });
 
-gulp.task('njk', function() {
-  return gulp.src('index.njk')
-    .pipe(data(function(){return require('./data.json')}))
+gulp.task('audio-njk', function() {
+  return gulp.src('audio.njk')
+    .pipe(data(function(){return requireUncached('./data.json')}))
     .pipe(nunjucksRender({path: ['.']}))
     .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(rename("index.html"))
+    .pipe(gulp.dest('dist/audio'))
+});
+
+gulp.task('index-njk', function() {
+  return gulp.src('index.njk')
+    .pipe(nunjucksRender({path: ['.']}))
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(rename("index.html"))
     .pipe(gulp.dest('dist'))
 });
 
 // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'watch'], function() {
-    gulp.watch('dist/*', browserSync.reload);
+    gulp.watch('dist/**', browserSync.reload);
 });
 
 gulp.task('watch', ['default'], function() {
     gulp.watch('less/*.less', ['less']);
     gulp.watch(cssFiles, ['css']);
     gulp.watch(jsFiles, ['js']);
-    gulp.watch('index.njk', ['njk']);
+    gulp.watch(['index.njk'], ['index-njk']);
+    gulp.watch(['audio.njk', 'data.json'], ['audio-njk']);
     gulp.watch(['img/*', 'css/fontello*', '!css/fontello.css'], ['copy']);
 });
+
+function requireUncached( $module ) {
+    delete require.cache[require.resolve( $module )];
+    return require( $module );
+};
